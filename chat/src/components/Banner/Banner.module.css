@@ -1,0 +1,8 @@
+.ContainerBanner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+
+}

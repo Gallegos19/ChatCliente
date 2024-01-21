@@ -1,0 +1,47 @@
+body {
+    background-color: #E5EDF4;
+  }
+  .chat-header {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #283241;
+    padding: 10px;
+  }
+  .message-bubble {
+    background-color: #446A8D;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    font-size: 1rem;
+  }
+  .input-area {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  button{
+    border-radius: 10%;
+  }
+  .input{
+    background-color: #446A8D;
+    width: 50%;
+    color: white;
+    height: 7vh;
+  }
+  .input::placeholder {
+    color: rgb(255, 255, 255); /* Puedes cambiar el color según tus preferencias */
+  }
