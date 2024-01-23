@@ -6,7 +6,23 @@ export default function Nav() {
   return (
     <div className={style.ContainerNav}>
         <Banner/>
-        <Contacto />
+        <div className={style.chatsContacto}>
+        <Contacto contacto='Juan Mecanico'/>   
+        <Contacto contacto='Juan Mecanico'/>
+        <Contacto contacto='Juan Mecanico'/>
+        <Contacto contacto='Juan Mecanico'/>
+        <Contacto contacto='Juan Mecanico'/>
+        <Contacto contacto='Juan Mecanico'/>
+        <Contacto contacto='Juan Mecanico'/>
+        <Contacto contacto='Juan Mecanico'/>
+        <Contacto contacto='Juan Mecanico'/>
+        <Contacto contacto='Juan Mecanico'/>
+        </div>
+       
+
+        
+     
+        
     </div>
   )
 }

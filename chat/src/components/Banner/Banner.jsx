@@ -6,7 +6,10 @@ export default function Banner() {
   return (
     <div className={style.ContainerBanner}>
          <IoLogoSnapchat size={30}/>
-        CHATNECO
+         <p>
+         CHATNECO
+         </p>
+        
     </div>
   )
 }

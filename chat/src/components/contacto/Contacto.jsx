@@ -2,11 +2,11 @@ import React from "react";
 import style from "./Contacto.module.css";
 import { FaUserCircle } from "react-icons/fa";
 
-export default function Contacto() {
+export default function Contacto(props) {
   return (
     <div className={style.containerContacto}>
       <FaUserCircle size={30}/>
-      <h3>Contacto</h3>
+      <h3>{props.contacto}</h3>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.homeContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.input{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 15px 10px;
+}
+
