@@ -8,6 +8,21 @@
     width: 100%;
     position: fixed;
     bottom: 0;
-    padding: 15px 10px;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: -20rem;
+    padding: 10px 10px;
+    
 }
 
+.messagesContainer{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+    height: 90vh;
+    overflow-y: auto; 
+}

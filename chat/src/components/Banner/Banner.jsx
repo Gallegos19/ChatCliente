@@ -1,4 +1,3 @@
-import React from 'react'
 import { IoLogoSnapchat } from "react-icons/io5";
 import style from './Banner.module.css'
 

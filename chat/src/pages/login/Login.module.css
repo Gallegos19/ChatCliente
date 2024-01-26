@@ -1,0 +1,57 @@
+.ContainerLogin{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.ladoIzquierdo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #283241;
+    
+}
+.ladoDerecho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: black;
+    height: 100vh;
+    background-color: #E5EDF4;
+}
+.inputs{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    box-shadow: 1px 0px 0px black;
+}
+
+.boton{
+    display: flex;
+    margin-top: 15%;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #283241;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    
+
+}
+a{
+    text-decoration: none;
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #0A007C;
+}

@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./Contacto.module.css";
 import { FaUserCircle } from "react-icons/fa";
 
