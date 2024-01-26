@@ -36,9 +36,8 @@ export default function Nav() {
     <div className={style.ContainerNav}>
       <Banner />
       <div className={style.chatsContacto}>
-        <Contacto contacto='Juan Mecanico' />
-        <Contacto contacto='Juan Mecanico' />
-        <Contacto contacto='Juan Mecanico' />
+        <Contacto contacto='Chat General' />
+   
       </div>
       <div className={style.crearChat}>
         <input

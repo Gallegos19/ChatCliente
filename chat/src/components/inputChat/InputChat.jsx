@@ -6,7 +6,6 @@ export default function InputChat({ enviarMensaje }) {
 
   const handleInputChange = (e) => {
     setNuevoMensaje(e.target.value);
-    console.log(nuevoMensaje)
   };
 
   const handleEnviarClick = () => {
@@ -24,7 +23,7 @@ export default function InputChat({ enviarMensaje }) {
         value={nuevoMensaje}
         onChange={handleInputChange}
       />
-      <button onClick={handleEnviarClick}><ButtonChat/></button>
+      <button style={{borderRadius:'50%'}} onClick={handleEnviarClick}><ButtonChat/></button>
     </div>
   );
 }

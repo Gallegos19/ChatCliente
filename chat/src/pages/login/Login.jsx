@@ -3,6 +3,7 @@ import axios from 'axios';
 import style from './Login.module.css';
 import { IoLogoSnapchat } from 'react-icons/io5';
 import { useNavigate } from 'react-router-dom';
+
 export default function Login() {
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
@@ -36,12 +37,16 @@ export default function Login() {
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('id', response.data.id);
 
-      navigate('/home')
+      navigate('/home');
     } catch (error) {
       // Manejar el error, por ejemplo, mostrar un mensaje al usuario
       setError('Error al iniciar sesión. Verifica tu correo y contraseña.');
       console.error('Error al iniciar sesión:', error.response.data.message);
     }
+  };
+
+  const irRegistro = () => {
+    navigate('/register');
   };
 
   return (
@@ -80,7 +85,7 @@ export default function Login() {
           </button>
         </form>
 
-        <a href="#">No tienes cuenta, registrate aca</a>
+        <a onClick={irRegistro}>No tienes cuenta, registrate aca</a>
       </div>
     </div>
   );
